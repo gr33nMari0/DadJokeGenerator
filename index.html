@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Joke Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Dad Joke<br>Generator</h1>
+        <h2>This is a demo of basic AJAX and working with API's</h2>
+        <p>Scroll down to start!</p>
+
+
+    </div>
+    <div id="jokeWrapper">
+        <section id="dadJokes">
+            <h3>Click the button to get a dad joke!</h3>
+            <input type="number" name="number" placeholder="How many jokes?"><button>Click me!</button>
+            <ul id="jokes">
+            </ul>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <h3>This (mostly) useless creation is made by <a href="https://twitter.com/PetePeteRepeat_"
+                target="_blank">@PetePete_Repeat</a>
+        </h3>
+        <div id="footerWrapper">
+            <div>
+                <h4>&copy; Peter Woodhead 2021</h4>
+                <p>(Credit to <a href="https://icanhazdadjoke.com/" target="_blank">Icanhazdadjoke</a> for the API!)</p>
+            </div>
+            <div id="socials">
+                <h4>Socials</h4>
+                <a href="https://twitter.com/PetePeteRepeat_" target="_blank">Twitter</a>
+                <a href="https://youtube.com/PetePeteRepeat" target="_blank">YouTube</a>
+                <a href="https://github.com/gr33nMari0" target="_blank">Github</a>
+            </div>
+            <div id="dumb">
+                <h4>Other Dumb Creations</h4>
+                <a href="http://lolpranked.tk" target="_blank">LolPranked</a>
+                <a href="http://buyanewphone.tk" target="_blank">BuyANewPhone</a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
