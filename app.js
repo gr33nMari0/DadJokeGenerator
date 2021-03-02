@@ -55,7 +55,7 @@ const addNewJoke = async () => {
 
 button.addEventListener('click', () => {
     let numberInput = document.querySelector("input");
-    let number = parseInt(numberInput.value);
+    let number = parseInt(numberInput.value) | 1;
     for (i = 0; i < number; i++) {
         addNewJoke();
     }
