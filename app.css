@@ -19,11 +19,11 @@ body {
 
 h1 {
     /* font-size: 12rem; */
-    font-size: 20vh;
+    font-size: 18vh;
     text-align: center;
     color: #00ff9c;
     margin: 0;
-    line-height: 20vh;
+    line-height: 18vh;
     transition: font-size 0.5s, line-height 0.5s;
 }
 /* h1:hover {
@@ -40,54 +40,7 @@ h2 {
     /* background-color: #2e2837; */
 }
 
-@media (max-width: 1200px) {
-    h1 {
-        font-size: 16vh;
-        line-height: 16vh;
-    }
-    h2 {
-        margin-top: 2.5vh;
-        font-size: 2vh;
-    }
-}
-/* @media (max-width: 992px) {
-    h1 {
-        font-size: 12vh;
-        line-height: 12vh;
-    }
-    h2 {
-        margin-top: 2vh;
-        font-size: 1.6vh;
-    }
-} */
-@media (max-width: 768px) {
-    /* h1 {
-        font-size: 8vh;
-        line-height: 8vh;
-    }
-    h2 {
-        margin-top: 1.5vh;
-        font-size: 1.2vh;
-    } */
-    h1 {
-        font-size: 12vh;
-        line-height: 12vh;
-    }
-    h2 {
-        margin-top: 2vh;
-        font-size: 1.6vh;
-    }
-}
-/* @media (max-width: 576px) {
-    h1 {
-        font-size: 4vh;
-        line-height: 4vh;
-    }
-    h2 {
-        margin-top: 1vh;
-        font-size: 1vh;
-    }
-} */
+
 
 .wrapper p {
     font-weight: 500;
@@ -204,3 +157,83 @@ h2 {
 #socials a, #dumb a {
     padding: 5px;
 }
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 14vh;
+        line-height: 14vh;
+    }
+    h2 {
+        margin-top: 2.3vh;
+        font-size: 1.8vh;
+    }
+}
+/* @media (max-width: 992px) {
+    h1 {
+        font-size: 12vh;
+        line-height: 12vh;
+    }
+    h2 {
+        margin-top: 2vh;
+        font-size: 1.6vh;
+    }
+} */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 8vh;
+        line-height: 8vh;
+    }
+    h2 {
+        margin-top: 1.5vh;
+        font-size: 1.2vh;
+    }
+    #dadJokes ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #footerWrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerWrapper div {
+        width: 80vw;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.041);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    #dadJokes input, #dadJokes button {
+        border-radius: 10px;
+        border: none;
+        margin: 5px 10px;
+        margin-bottom: 30px;
+        height: 3em;
+        text-align: center;
+        width: 20em;
+        
+    }
+    #dadJokes h3 {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
+    /* h1 {
+        font-size: 12vh;
+        line-height: 12vh;
+    }
+    h2 {
+        margin-top: 2vh;
+        font-size: 1.6vh;
+    } */
+}
+/* @media (max-width: 576px) {
+    h1 {
+        font-size: 4vh;
+        line-height: 4vh;
+    }
+    h2 {
+        margin-top: 1vh;
+        font-size: 1vh;
+    }
+} */
